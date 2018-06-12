@@ -1,0 +1,106 @@
+body {
+  margin: 50px;
+  padding: 0;
+}
+
+.app * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.game-control {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.game-control .title {
+  margin-bottom: 10px;
+}
+
+.game-control label {
+  margin-right: 5px;
+}
+
+.game-control input[type="number"] {
+  width: 50px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.game-control input[type="button"] {
+  display: inline-block;
+  height: 30px;
+}
+
+.message {
+  margin-bottom: 30px;
+}
+
+.message b {
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.game-area {
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 46px;
+  height: 46px;
+  margin: 2px;
+}
+
+.btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: #a1b8e7;
+}
+
+.btn:hover, .btn:active {
+  cursor: pointer;
+  background: #8097ba;
+}
+
+.btn.slideUp {
+  transition: top 0.3s;
+  top: -50px;
+}
+
+.btn.slideRight {
+  transition: left 0.3s;
+  left: 50px;
+}
+
+.btn.slideDown {
+  transition: top 0.3s;
+  top: 50px;
+}
+
+.btn.slideLeft {
+  transition: left 0.3s;
+  left: -50px;
+}
